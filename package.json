@@ -2,7 +2,7 @@
   "name": "webrtc-videochat-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "prestart": "npm run build",
@@ -22,12 +22,14 @@
   "description": "",
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/uuid": "^10.0.0",
     "nodemon": "^3.1.10",
     "typescript": "^5.9.2"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
   }
 }
